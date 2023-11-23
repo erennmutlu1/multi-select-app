@@ -1,6 +1,6 @@
 Multi-Select Component
 
-Description:
+**Description:**
 A React-based multi-select component designed for displaying JSON data. This component provides a user-friendly interface for selecting categories, searching for specific categories, and persists the selected categories even after a page refresh using local storage.
 
 Features:
