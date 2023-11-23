@@ -1,0 +1,109 @@
+.multiselect-global-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.multiselect-container {
+  max-width: 300px;
+  border: 1px solid #ccc; 
+  background-color: #f9f9f9; 
+  padding: 10px; 
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Updated to column layout */
+}
+
+#searchCategory {
+  border-radius: 5px;
+  border-width: 0.5px;
+  width: 290px;
+  height: 25px;
+  margin-bottom: 10px; 
+}
+
+.search-container {
+  position: relative;
+  border-radius: 5px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 40%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.category-container {
+  max-height: 180px;
+  overflow-y: auto;
+  width: 100%; 
+}
+
+.category-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: inline-block;
+  width: 300px;
+  margin-top: 15px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+input[type="checkbox"] {
+  display: grid;
+  place-content: center;
+  width: 1.3em; 
+  height: 1.3em; 
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.9em; 
+  height: 0.9em; 
+  transform: scale(0);
+  border: 2px solid #0056b3; 
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+  background-color: #0056b3;
+  border: none; 
+}
+
+.categoryLabel  {
+  float: left;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+}
