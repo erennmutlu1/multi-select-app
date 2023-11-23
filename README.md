@@ -12,7 +12,7 @@ A React-based multi-select component designed for displaying JSON data. This com
 
 **Usage:**
 
-- Clone the repository: git clone [https://github.com/your-username/multi-select-component.git](https://github.com/erennmutlu1/multi-select-app.git)
+- Clone the repository: git clone (https://github.com/erennmutlu1/multi-select-app.git)
 - Install dependencies: npm install
 - Run the application: npm start
 
