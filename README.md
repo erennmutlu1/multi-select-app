@@ -19,9 +19,8 @@ Run the application: npm start
 **How to Use:**
 
 Include the MultiSelect component in your React project.
-Use the component with the following properties:
-jsx
-`<MultiSelect />`
+Use the component with the following property: </br>
+    </t>`<MultiSelect />` </br>
 Customize the component based on your application's needs.
 
 **Dependencies:**
