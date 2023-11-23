@@ -26,4 +26,5 @@ Customize the component based on your application's needs.
 **Dependencies:**
 - React
 - React Icons
+- TypeScript 
 - Other dependencies as specified in package.json
