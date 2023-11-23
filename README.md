@@ -23,6 +23,7 @@ Use the component with the following properties:
 jsx
 `<MultiSelect />`
 Customize the component based on your application's needs.
+
 **Dependencies:**
 - React
 - React Icons
